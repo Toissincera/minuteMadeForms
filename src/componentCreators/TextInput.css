@@ -1,0 +1,136 @@
+.text_grandparent {
+  box-sizing: border-box;
+  color: rgb(56, 56, 56);
+  font-size: 24;
+  line-height: 11.5px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  text-rendering: optimizelegibility;
+  border: 1px solid white;
+  border-radius: 2rem;
+}
+
+.text_parent {
+  box-sizing: border-box;
+  color: rgb(56, 56, 56);
+  line-height: 11.5px;
+  text-rendering: optimizelegibility;
+}
+
+.text_a {
+  box-sizing: border-box;
+  color: rgb(56, 56, 56);
+  column-gap: 0px;
+  display: flex;
+  flex-direction: column;
+  line-height: 11.5px;
+  margin-bottom: 10px;
+  position: relative;
+  row-gap: 0px;
+  text-rendering: optimizelegibility;
+}
+
+.text_aa {
+  box-sizing: border-box;
+  color: rgb(56, 56, 56);
+  column-gap: 10px;
+  display: flex;
+  line-height: 11.5px;
+  row-gap: 10px;
+  text-rendering: optimizelegibility;
+}
+
+.text_ab {
+  box-sizing: border-box;
+  color: rgb(96, 96, 96);
+  font-family: "noto_sans", "noto_sans_devanagari", "noto_sans_gu",
+    "noto_sans_te", "noto_sans_kn", "noto_sans_or", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  text-rendering: optimizelegibility;
+}
+
+.text_b {
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  box-sizing: border-box;
+  color: rgb(56, 56, 56);
+  column-gap: 10px;
+  display: flex;
+  line-height: 11.5px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  position: relative;
+  row-gap: 10px;
+  text-rendering: optimizelegibility;
+  transition-delay: 0s;
+  transition-duration: 0.3s;
+  transition-property: background-color;
+  transition-timing-function: ease-out;
+  -moz-box-align: center;
+}
+
+.text_ba {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none;
+  background-origin: padding-box;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-size: auto;
+  border-bottom-color: rgb(56, 56, 56);
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(56, 56, 56);
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: rgb(56, 56, 56);
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: rgb(56, 56, 56);
+  border-top-style: none;
+  border-top-width: 0px;
+  box-sizing: border-box;
+  color: rgb(56, 56, 56);
+  flex-grow: 1;
+  font-family: "noto_sans", "noto_sans_devanagari", "noto_sans_gu",
+    "noto_sans_te", "noto_sans_kn", "noto_sans_or", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  height: 40px;
+  line-height: 21px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  outline-color: rgb(56, 56, 56);
+  outline-style: none;
+  outline-width: 0px;
+  overflow-x: clip;
+  overflow-y: clip;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  text-rendering: optimizelegibility;
+}
